@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		37E708221C66845D00CB0B1A /* PUActionHero.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E708211C66845D00CB0B1A /* PUActionHero.m */; };
+		37E708251C66859400CB0B1A /* UITableViewCell+PUActionHero.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E708241C66859400CB0B1A /* UITableViewCell+PUActionHero.m */; };
 		4ED6933B74A00B75B45548B8 /* Pods_PUStaticDataSource_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58C6E85EB1249AE068475F0E /* Pods_PUStaticDataSource_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -21,7 +23,6 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		FD5BF9B07E7B9444D8907DCC /* Pods_PUStaticDataSource_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 878DD037C1A7084A1D8A805E /* Pods_PUStaticDataSource_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +40,10 @@
 		040062B886AAF04B4AE5460F /* Pods-PUStaticDataSource_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PUStaticDataSource_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PUStaticDataSource_Example/Pods-PUStaticDataSource_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		09D04E9510C7E168DDA4CC4D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		3785300C713C36EF4D2848EC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		37E708201C66845D00CB0B1A /* PUActionHero.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PUActionHero.h; sourceTree = "<group>"; };
+		37E708211C66845D00CB0B1A /* PUActionHero.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PUActionHero.m; sourceTree = "<group>"; };
+		37E708231C66859400CB0B1A /* UITableViewCell+PUActionHero.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+PUActionHero.h"; sourceTree = "<group>"; };
+		37E708241C66859400CB0B1A /* UITableViewCell+PUActionHero.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+PUActionHero.m"; sourceTree = "<group>"; };
 		58C6E85EB1249AE068475F0E /* Pods_PUStaticDataSource_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PUStaticDataSource_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* PUStaticDataSource_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PUStaticDataSource_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -60,7 +65,6 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		657AAED5D987A869023B83DE /* Pods-PUStaticDataSource_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PUStaticDataSource_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PUStaticDataSource_Tests/Pods-PUStaticDataSource_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		878DD037C1A7084A1D8A805E /* Pods_PUStaticDataSource_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PUStaticDataSource_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CE3F6B1DCB6F80A44E94913 /* Pods-PUStaticDataSource_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PUStaticDataSource_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PUStaticDataSource_Tests/Pods-PUStaticDataSource_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B919129ED0668827E933D584 /* Pods-PUStaticDataSource_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PUStaticDataSource_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-PUStaticDataSource_Example/Pods-PUStaticDataSource_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -130,9 +134,12 @@
 		6003F593195388D20070C39A /* Example for PUStaticDataSource */ = {
 			isa = PBXGroup;
 			children = (
+				37E708201C66845D00CB0B1A /* PUActionHero.h */,
+				37E708211C66845D00CB0B1A /* PUActionHero.m */,
 				6003F59C195388D20070C39A /* PUAppDelegate.h */,
 				6003F59D195388D20070C39A /* PUAppDelegate.m */,
-				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
+				37E708231C66859400CB0B1A /* UITableViewCell+PUActionHero.h */,
+				37E708241C66859400CB0B1A /* UITableViewCell+PUActionHero.m */,
 				6003F5A5195388D20070C39A /* PUViewController.h */,
 				6003F5A6195388D20070C39A /* PUViewController.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
@@ -276,7 +283,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
@@ -392,7 +398,9 @@
 			files = (
 				6003F59E195388D20070C39A /* PUAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* PUViewController.m in Sources */,
+				37E708221C66845D00CB0B1A /* PUActionHero.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				37E708251C66859400CB0B1A /* UITableViewCell+PUActionHero.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

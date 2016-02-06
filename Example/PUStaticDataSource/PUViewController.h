@@ -8,6 +8,6 @@
 
 @import UIKit;
 
-@interface PUViewController : UIViewController
+@interface PUViewController : UITableViewController
 
 @end
