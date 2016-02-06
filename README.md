@@ -17,7 +17,7 @@ PUStaticDataSource is available through [CocoaPods](http://cocoapods.org). To in
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "PUStaticDataSource"
+pod "PUStaticDataSource", git: "https://github.com/parku/PUStaticDataSource.git"
 ```
 
 ## Author
