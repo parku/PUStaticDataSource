@@ -22,7 +22,7 @@ pod "PUStaticDataSource", git: "https://github.com/parku/PUStaticDataSource.git"
 
 ## Author
 
-Danilo, dabio@users.noreply.github.com
+Danilo, danilo@parku.com
 
 ## License
 
