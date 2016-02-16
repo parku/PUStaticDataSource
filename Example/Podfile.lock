@@ -1,0 +1,14 @@
+PODS:
+  - PUStaticDataSource (0.1.0)
+
+DEPENDENCIES:
+  - PUStaticDataSource (from `../`)
+
+EXTERNAL SOURCES:
+  PUStaticDataSource:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PUStaticDataSource: 54a529028af55e043b58f2bda043e9ff5a9db9b5
+
+COCOAPODS: 0.39.0
